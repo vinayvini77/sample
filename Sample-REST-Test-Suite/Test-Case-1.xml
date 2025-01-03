@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="30a6ad3e-ef8d-40b6-911b-3f4851bbb655" discardOkResults="false" failOnError="false" failTestCaseOnErrors="true" keepSession="false" name="Test Case 1" searchProperties="true" timeout="0">
+  <con:settings>
+    <con:setting id="30a6ad3e-ef8d-40b6-911b-3f4851bbb655fileName">Test-Case-1</con:setting>
+  </con:settings>
+  <con:testStep type="datasource" name="Data Source" id="cffec2d9-668f-4be5-a7cc-6558b4088595">
+    <con:settings/>
+    <con:config xsi:type="con:DataSourceStep">
+      <con:dataSource type="Excel">
+        <con:configuration>
+          <file>C:/Users/vinaykumar.bk/Downloads/ReadyAPI_BG-PAY-TEST-OUT1 (2).xlsx</file>
+          <worksheet>Ark1</worksheet>
+          <cell>A2</cell>
+          <ignoreEmpty>false</ignoreEmpty>
+          <evaluateFormulas>false</evaluateFormulas>
+        </con:configuration>
+      </con:dataSource>
+      <con:shared>true</con:shared>
+      <con:restartShared>true</con:restartShared>
+      <con:property>PAYER-NAME</con:property>
+      <con:property>CUST-REF</con:property>
+      <con:property>Ref.code
+(usually 2)</con:property>
+      <con:property>PAY-ACCOUNT-NO/ 
+Sender BG number</con:property>
+      <con:property>ORIG-AMT</con:property>
+      <con:property>FI-REFERENCE-NO</con:property>
+      <con:property>VALUE-DATE
+(yyyy-mm-dd)</con:property>
+      <con:property>PAYMENT-
+NO</con:property>
+      <con:property>PAYER-ADDRESS/
+Payer's address</con:property>
+      <con:property>PAYER-ZIP-CODE/
+Payer's post code</con:property>
+      <con:property>PAYER-CITY/ 
+Payer's town</con:property>
+      <con:property>TODAY'S DATE (ssyymmdd)</con:property>
+      <con:property>TIME NOW
+(hhmmss)</con:property>
+      <con:property>Date and time:
+only in first row</con:property>
+      <con:property>SUBMIT DATA IN THE GREEN CELLS</con:property>
+      <con:restartOnRun>true</con:restartOnRun>
+      <con:stopDatasourceExhausted>false</con:stopDatasourceExhausted>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="datasource" name="Data Source 3" id="a69565ec-9ed2-4fff-98de-a054255f12c9">
+    <con:settings/>
+    <con:config xsi:type="con:DataSourceStep">
+      <con:dataSource type="Excel">
+        <con:configuration>
+          <file>C:/Users/vinaykumar.bk/Downloads/ReadyAPI_BG-PAY-TEST-OUT1 (2).xlsx</file>
+          <worksheet/>
+          <cell>A1</cell>
+          <ignoreEmpty>false</ignoreEmpty>
+          <evaluateFormulas>false</evaluateFormulas>
+        </con:configuration>
+      </con:dataSource>
+      <con:shared>true</con:shared>
+      <con:restartShared>true</con:restartShared>
+      <con:property>783232663</con:property>
+      <con:property>2</con:property>
+      <con:property>500000</con:property>
+      <con:property>296900533438</con:property>
+      <con:property>1</con:property>
+      <con:property>Gatan 1</con:property>
+      <con:property>138 31</con:property>
+      <con:property>Stockholm</con:property>
+      <con:property>20240929</con:property>
+      <con:property>195749</con:property>
+      <con:property>TOTAL-ORIG-AMT</con:property>
+      <con:property>Antal 20/21</con:property>
+      <con:property>Antal 20</con:property>
+      <con:property>Antal 21</con:property>
+      <con:property>Antal 25</con:property>
+      <con:property>Antal 10</con:property>
+      <con:restartOnRun>true</con:restartOnRun>
+      <con:stopDatasourceExhausted>false</con:stopDatasourceExhausted>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="datasource" name="Data Source 2" id="ef371465-69ac-483d-9f5c-f5988326e995">
+    <con:settings/>
+    <con:config xsi:type="con:DataSourceStep">
+      <con:dataSource type="Excel">
+        <con:configuration>
+          <file>C:/Users/vinaykumar.bk/Downloads/ReadyAPI_BG-PAY-TEST-OUT1 (2).xlsx</file>
+          <worksheet/>
+          <cell>A1</cell>
+          <ignoreEmpty>false</ignoreEmpty>
+          <evaluateFormulas>false</evaluateFormulas>
+        </con:configuration>
+      </con:dataSource>
+      <con:shared>true</con:shared>
+      <con:restartShared>true</con:restartShared>
+      <con:property>PAYER-NAME</con:property>
+      <con:property>CUST-REF</con:property>
+      <con:property>Ref.code
+(usually 2)</con:property>
+      <con:property>PAY-ACCOUNT-NO/ 
+Sender BG number</con:property>
+      <con:property>ORIG-AMT</con:property>
+      <con:property>FI-REFERENCE-NO</con:property>
+      <con:property>VALUE-DATE
+(yyyy-mm-dd)</con:property>
+      <con:property>PAYMENT-
+NO</con:property>
+      <con:property>PAYER-ADDRESS/
+Payer's address</con:property>
+      <con:property>PAYER-ZIP-CODE/
+Payer's post code</con:property>
+      <con:property>PAYER-CITY/ 
+Payer's town</con:property>
+      <con:property>TODAY'S DATE (ssyymmdd)</con:property>
+      <con:property>TIME NOW
+(hhmmss)</con:property>
+      <con:property>Date and time:
+only in first row</con:property>
+      <con:property>SUBMIT DATA IN THE GREEN CELLS</con:property>
+      <con:restartOnRun>true</con:restartOnRun>
+      <con:stopDatasourceExhausted>false</con:stopDatasourceExhausted>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="restrequest" name="REST Request" id="d207e9fe-d659-4d7e-9c99-66d8ed479250">
+    <con:settings/>
+    <con:config service="Ecommerce" methodName="Login" resourcePath="/login/" xsi:type="con:RestRequestStep">
+      <con:restRequest name="REST Request" id="1bb6b408-63f5-4de6-8a91-6a1fbe08a067" mediaType="application/json">
+        <con:settings/>
+        <con:encoding>UTF-8</con:encoding>
+        <con:endpoint>http://localhost:8084</con:endpoint>
+        <con:request/>
+        <con:assertion type="Valid HTTP Status Codes" id="990e2d2c-5be1-4be0-83ae-00b7afeec81b" name="Valid HTTP Status Codes">
+          <con:settings/>
+          <con:configuration>
+            <codes>200</codes>
+          </con:configuration>
+        </con:assertion>
+        <con:assertion type="Response SLA Assertion" id="154bec27-e332-484f-b6dc-c4cf08fa5561" name="Response SLA">
+          <con:configuration>
+            <SLA>200</SLA>
+          </con:configuration>
+        </con:assertion>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters/>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="restrequest" name="REST Request 2" id="4299bb7a-4d8e-4f50-b41c-88a2e66cfd6b">
+    <con:settings/>
+    <con:config service="Ecommerce" methodName="Login" resourcePath="/login/" xsi:type="con:RestRequestStep">
+      <con:restRequest name="REST Request 2" id="e19edae0-096d-4ef8-b599-03e0b08e66b8" mediaType="application/json">
+        <con:settings/>
+        <con:encoding>UTF-8</con:encoding>
+        <con:endpoint>http://localhost:8084</con:endpoint>
+        <con:request/>
+        <con:assertion type="Valid HTTP Status Codes" id="b9a6488e-2926-44d6-96a2-89d8657f613c" name="Valid HTTP Status Codes">
+          <con:settings/>
+          <con:configuration>
+            <codes>200</codes>
+          </con:configuration>
+        </con:assertion>
+        <con:assertion type="Response SLA Assertion" id="70f3b7da-61d9-4133-a2f8-2df6f9232f78" name="Response SLA">
+          <con:configuration>
+            <SLA>200</SLA>
+          </con:configuration>
+        </con:assertion>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:parameters/>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testCase>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="d36fd508-edd9-4950-a62b-d148d4eda82a" discardOkResults="false" failOnError="false" failTestCaseOnErrors="true" keepSession="false" name="Test Case 1" searchProperties="true" timeout="0">
+  <con:settings>
+    <con:setting id="d36fd508-edd9-4950-a62b-d148d4eda82afileName">Test-Case-1</con:setting>
+  </con:settings>
+  <con:testStep type="datasource" name="Data Source" id="794ff755-c2cd-4466-96aa-8bb83ed38bc4">
+    <con:settings/>
+    <con:config xsi:type="con:DataSourceStep">
+      <con:dataSource type="Excel">
+        <con:configuration>
+          <file>C:/Users/vinaykumar.bk/Downloads/ReadyAPI_BG-PAY-TEST-OUT1 (2).xlsx</file>
+          <worksheet>ark1</worksheet>
+          <cell>A1</cell>
+          <ignoreEmpty>true</ignoreEmpty>
+          <evaluateFormulas>true</evaluateFormulas>
+        </con:configuration>
+      </con:dataSource>
+      <con:shared>true</con:shared>
+      <con:restartShared>true</con:restartShared>
+      <con:property>PAYER-NAME</con:property>
+      <con:property>CUST-REF</con:property>
+      <con:property>Ref.code
+(usually 2)</con:property>
+      <con:property>PAY-ACCOUNT-NO/ 
+Sender BG number</con:property>
+      <con:property>ORIG-AMT</con:property>
+      <con:property>FI-REFERENCE-NO</con:property>
+      <con:property>VALUE-DATE
+(yyyy-mm-dd)</con:property>
+      <con:property>PAYMENT-
+NO</con:property>
+      <con:property>PAYER-ADDRESS/
+Payer's address</con:property>
+      <con:property>PAYER-ZIP-CODE/
+Payer's post code</con:property>
+      <con:property>PAYER-CITY/ 
+Payer's town</con:property>
+      <con:property>TODAY'S DATE (ssyymmdd)</con:property>
+      <con:property>TIME NOW
+(hhmmss)</con:property>
+      <con:property>Date and time:
+only in first row</con:property>
+      <con:property>SUBMIT DATA IN THE GREEN CELLS</con:property>
+      <con:restartOnRun>true</con:restartOnRun>
+      <con:stopDatasourceExhausted>false</con:stopDatasourceExhausted>
+    </con:config>
+  </con:testStep>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testCase>
