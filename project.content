@@ -8,6 +8,7 @@ Sample-REST-Test-Suite\DataDriven-REST-Test.xml
 Sample-REST-Test-Suite\Test-Case-1.xml
 Sample-REST-Test-Suite\Test-Case-2.xml
 Test-Suite-1\Test-Case-1.xml
+Test-Suite-1\Test-Case-2.xml
 EcommerceVirt\%2Ftest.xml
 EcommerceVirt\buy.xml
 EcommerceVirt\login.xml
